@@ -12,7 +12,7 @@ To compute BSS scores: `python bss_calc.py > bss_log`.
 To run the debate,
 
 ```
-python multiagent-debate.py --model llama1b llama3b llama8b qwen3b qwen7b qwen14b \
+python multiagent-debate.py --model llama3b llama8b qwen3b qwen7b qwen14b qwen32b\
         --dataset MMLU --dataset_type val --rounds 5
 ```
 
